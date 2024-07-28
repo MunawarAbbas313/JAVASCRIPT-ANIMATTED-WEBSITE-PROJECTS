@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munawars Shoes Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="img/sneakers.png" alt="">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Enter Name " class="SearchInput">
+                    <img src="img/search.png" alt="" class="SearchIcon" height="18" width="18">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limmtedOffer">Limitted Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="MenuItem">AIR FORCE</h3>
+            <h3 class="MenuItem">BLAZER</h3>
+            <h3 class="MenuItem">JORDEN</h3>
+            <h3 class="MenuItem">CREATER</h3>
+            <h3 class="MenuItem">HIPPEE</h3>
+        </div>
+    </nav>
+    <!--Slider For Images-->
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slider-item">
+                <img src="img/air.png" alt="" class="slider-img">
+                <div class="sliderbg" id="bg-color-0"></div>
+                <h1 class="sliderTitle">
+                    Air Force <br>
+                    <span>New</span> <br>
+                    Season
+                </h1>
+                <h2 class="sliderPrice">PKR <span>8500</span></h2>
+                <button class="buyButton" id="one" onclick="scrollToBottom()">BUY <span>NOW!</span></button>
+            </div>
+            <div class="slider-item">
+                <img src="img/blazer.png" alt="" class="slider-img">
+                <div class="sliderbg" id="bg-color-1"></div>
+                <h1 class="sliderTitle">
+                   Blazer <br>
+                    <span>New</span> <br>
+                    Season
+                </h1>
+                <h2 class="sliderPrice">PKR <span>7999</span></h2>
+                <button class="buyButton" id="two" onclick="scrollToBottom()">BUY <span>NOW!</span></button>
+            </div>
+            <div class="slider-item">
+                <img src="img/jordan.png" alt="" class="slider-img">
+                <div class="sliderbg" id="bg-color-2"></div>
+                <h1 class="sliderTitle">
+                    Jorden <br>
+                    <span>New</span> <br>
+                    Season
+                </h1>
+                <h2 class="sliderPrice">PKR <span>6599</span></h2>
+                <button class="buyButton" id="three" onclick="scrollToBottom()">BUY <span>NOW!</span></button>
+            </div>
+            <div class="slider-item">
+                <img src="img/crater.png" alt="" class="slider-img">
+                <div class="sliderbg" id="bg-color-3"></div>
+                <h1 class="sliderTitle">
+                   Crater <br>
+                    <span>New</span> <br>
+                    Season
+                </h1>
+                <h2 class="sliderPrice">PKR <span>5999</span></h2>
+                <button class="buyButton" id="four" onclick="scrollToBottom()">BUY <span>NOW!</span></button>
+            </div>
+            <div class="slider-item">
+                <img src="img/hippie.png" alt="" class="slider-img">
+                <div class="sliderbg" id="bg-color-4"></div>
+                <h1 class="sliderTitle">
+                    Hippie <br>
+                    <span>New</span> <br>
+                    Season
+                </h1>
+                <h2 class="sliderPrice">PKR <span>8999</span></h2>
+                <button class="buyButton" id="five" onclick="scrollToBottom()">BUY <span>NOW!</span></button>
+            </div>
+
+        </div>
+    </div>
+    <!--Features Page-->
+    <div class="features">
+        <div class="feature">
+            <img src="img/shipping.png" alt="" class="featurimg">
+            <span class="featurTitlt">FREE SHIPPING</span>
+            <span class="featurDis">Free shipping world wide.</span>
+        </div>
+        <div class="feature">
+            <img src="img/return.png" alt="" class="featurimg">
+            <span class="featurTitlt">30 DAYS RETURN</span>
+            <span class="featurDis">Easy return Refund under 14 Days</span>
+        </div>
+        <div class="feature">
+            <img src="img/gift.png" alt="" class="featurimg">
+            <span class="featurTitlt">GIFT CARDS</span>
+            <span class="featurDis">Get Gift Cards and Avail mazing Discount</span>
+        </div>
+        <div class="feature">
+            <img src="img/contact.png" alt="" class="featurimg">
+            <span class="featurTitlt">CONTECT US</span>
+            <span class="featurDis">Keep in touch via Email System.</span>
+        </div>
+        
+    </div>
+ <!--PRODUCTS-->
+ <div class="products" id="mypage">
+    <img src="img/air.png" alt="" class="productimg">
+    <div class="productDeatiles">
+        <h1 class="prodcutTitle">AIR <span>FORCE</span></h1>
+        <h1 class="productprice">PKR 8500</h1>
+        <p class="productDes">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione architecto consequatur non minima, eum exercitationem adipisci quas consequuntur at nisi.
+        </p>
+    
+    <div class="colors">
+        <div class="color"></div>
+        <div class="color"></div>
+    </div>
+    <div class="sizes">
+        <div class="size">42</div>
+        <div class="size">43</div>
+        <div class="size">44</div>
+      
+    </div>
+    <button class="PayBtn" id="TabOpner">BUY <span>NOW!</span></button>
+</div>
+<div class="payment" id="Pay">
+    <h1 class="paymentTitle">Personal <span>Information</span></h1>
+    <label >Name and Surname</label>
+    <input type="text" placeholder="Munawar Abbas" class="paymentinput">
+    <label >Phone Number</label>
+    <input type="number" placeholder=" +93313-5506223" class="paymentinput">
+    <label >Address </label>
+    <input type="text" placeholder="house no 8 Alipur islamabad" class="paymentinput">
+    <h1 class="paymentTitle">Cart <span> Information</span></h1>
+    <div class="cartIcons">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2EJfiKGn6KWl3vHoQcapldPye3mhmkYtrSDl8Pl0bx9yX-ljj7aoQk4_DFXbxxBAPLHY&usqp=CAU" alt="" class="cardIcon" width="40px">
+        <img src="https://edusuitepk.b-cdn.net/wp-content/uploads/2023/11/SadaPay-Integration.png" alt="" class="cardIcon" width="40px">
+        <img src="https://play-lh.googleusercontent.com/-AGNZ38zv1-j1zqsWHClQ9VWNAYpgpmKnARp0PMT_6FNpVuWP9ze_cqnrvTSMDC2p7o5" alt="" class="cardIcon" width="40px">
+        <img src="https://vectorseek.com/wp-content/uploads/2023/09/NayaPay-Icon-Logo-Vector.svg-.png" alt="" class="cardIcon" width="40px">
+    </div>
+    <input type="password" placeholder="Card Number" class="paymentinput">
+    <div class="cardInfo">
+        <input type="text" placeholder="mmm" class="paymentinput sm" id="checker">
+        <input type="text" placeholder="yyy" class="paymentinput sm" id="checker">
+        <input type="text" placeholder="CVV" class="paymentinput sm" id="checker">
+    </div>
+    <button class="PayBtnn" id="Mybtn">CHECK <span>OUT</span></button>
+    <span class="Close" >x</span>
+</div>
+ </div>
+ <div class="gallery">
+    <div class="galleryItem">
+        <h1 class="galleryTitle">Be <span>Yourself!</span></h1>
+        <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="galleryImg">
+    </div>
+    <div class="galleryItem">
+        <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="galleryImg">
+        <h1 class="galleryTitle">This is the First <span> Day of Your New Life</span></h1>
+    </div>
+    <div class="galleryItem">
+        <h1 class="galleryTitle">Just <span>Do it!</span></h1>
+        <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="galleryImg">
+    </div>
+</div>
+<div class="newSeason">
+    <div class="nsItem">
+        <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="nsImg">
+    </div>
+    <div class="nsItem">
+        <h3 class="nsTitleSm">WINTER <span> NEW ARRIVALS</span></h3>
+        <h1 class="nsTitle">New <span>Season</span></h1>
+        <h1 class="nsTitle">New <span>Collection</span></h1>
+        
+            <button class="nsbtn" onclick="scrollTotop()" >CHOOSE YOUR <span>STYLE</span></button>
+        
+    </div>
+    <div class="nsItem">
+        <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            alt="" class="nsImg">
+    </div>
+</div>
+<!--Footer-->
+<footer>
+    <div class="footerleft">
+        <div class="footermenu">
+            <h1 class="ftitle">ABOUT <span>US</span></h1>
+            <ul class="menulist">
+                <li class="flistItem">Company</li>
+                <li class="flistItem">Contect</li>
+                <li class="flistItem">Stores</li>
+                <li class="flistItem">Stores</li>
+                <li class="flistItem">Careers</li>
+            </ul>
+        </div>
+        <div class="footermenu">
+            <h1 class="ftitle">Our <span>Products</span></h1>
+            <ul class="menulist">
+                <li class="flistItem">Air Max</li>
+                <li class="flistItem">Jorden</li>
+                <li class="flistItem">Cratez</li>
+                <li class="flistItem">Hippee</li>
+                <li class="flistItem">Blazer</li>
+            </ul>
+        </div>
+        <div class="footermenu">
+            <h1 class="ftitle">Useful <span>Links</span></h1>
+            <ul class="menulist">
+                <li class="flistItem">FAQ</li>
+                <li class="flistItem">Support</li>
+                <li class="flistItem">Refund</li>
+                <li class="flistItem">Feedback</li>
+                <li class="flistItem">Stories</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerright">
+        <div class="footerrightMenu">
+            <h1 class="righttitle">Subscribe to <span>Our News Letter</span></h1>
+           <div class="fmail">
+            <input type="text" placeholder="munawar@gmail.com" class="rightinput">
+            <button class="fbtn">JOIN <span>NOW!</span></button>
+           </div>
+        </div>
+        <div class="footerrightMenu">
+            <h1 class="righttitle">Follow <span>Us</span></h1>
+            <div class="fIcons">
+                <img src="./img/facebook.png" alt="" class="ficon1">
+                <img src="./img/instagram.png" alt="" class="ficon2">
+                <img src="./img/twitter.png" alt="" class="ficon3">
+                <img src="./img/whatsapp.png" alt="" class="ficon4">
+            </div>
+        </div>
+        <div class="footerrightMenu">
+            <span class="copyright">
+                @ALL RIGHTS REVERSED BY MUNAWAR ABBAS 2024.
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
