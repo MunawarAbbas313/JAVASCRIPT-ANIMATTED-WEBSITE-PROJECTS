@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --font:"Poppins";
+    --font2:"Source Code Pro";
+}
+body{
+    padding: 0;
+    margin: 0;
+   font-style: normal;
+    color: white;
+    font-weight: 100;
+    box-sizing: border-box;
+    background-color: #000;
+    font-family: var(--font);
+}
+.nav{
+    background:  url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/de5aa17a-29b6-4167-8c39-834aae8f328e/PK-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_8056b691-2a93-40af-add4-ca200ba1151b_small.jpg");
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+.top_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40%;
+    padding: 10px;
+}
+.nav-span{
+    font-weight: 300;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    color: red;
+    font-family: var(--font) ;
+    -webkit-text-stroke: red 2px;
+    background-color: #08070745;
+    
+}
+.main{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.628);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.57);
+}
+.signInbtn{
+    padding: 7px 12px;
+    background-color: rgb(242, 30, 30);
+    color: white;
+    font-family: var(--font);
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signInbtn:hover{
+    background-color: rgb(181, 25, 25);
+    transition: all ease 0.7s;
+}
+.mainDetales{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 60px;
+    
+}
+.mainhead{
+    font-size: 45px;
+    font-family: var(--font);
+    font-weight: 700;
+}
+.mainpara{
+    transform: translateY(-40px);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font);
+}
+.mainparasm{
+    transform: translateY(-50px);
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: 400;
+}
+.formSec{
+    transform: translateY(-50px);
+    
+}
+
+.formInput{
+
+   width: 25%;
+   padding: 15px;
+   font-family: var(--font);
+   font-size: 17px;
+   text-align: start;
+   background: transparent;
+   color: white;
+   border: 1px solid red;
+   border-radius: 10px;
+   font-weight: 700;
+}
+.formBtn{
+    padding: 15px;
+    border: none;
+    background-color: rgba(69, 206, 19, 0.55);
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 6px;
+   
+}
+.btnspan{
+    font-weight: 100;
+   
+}
+.formBtn:hover{
+    background-color: rgb(16, 143, 4);
+    
+}
+input:focus::-webkit-input-placeholder{
+    transform: translateY(-100%);
+    position: relative;
+    font-size: 10px;
+    
+}
+.emailReq{
+    color: red;
+    font-family: var(--font2);
+    font-weight: 500;
+    font-size: 13px;
+
+}
+.errormsg{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-15%);
+}
+.corss{
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: left;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.page2{
+    width: 100%;
+    background-color: #000000;
+    height: 80vh;
+    position: relative;
+    margin-top: 10px;
+    border-bottom: 10px solid rgba(128, 128, 128, 0.808);
+}
+.page2Deatlies{
+    display: flex;
+    font-family: var(--font);
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    padding: 0px 50px;
+    overflow: hidden;
+    
+}
+.headings{
+    margin-bottom: 20%;
+    padding: 0 90px;
+    width: 50%;
+    
+}
+ .imgAndVid{
+    padding-right: 55px;
+    position: relative;
+    padding-bottom: 10%;
+
+    
+ }
+.pg2Head{
+    padding-top: 150px;
+    font-size: 45px;
+    font-weight: 950;
+}
+.pg2para{
+  
+    font-size: 20px;
+    font-weight: 400;
+   width: 100%;
+}
+.imgpg2{
+    width: 100%;
+    
+    padding: 0 55px;
+    position: relative;
+    z-index: 1;
+}
+
+.page2vid{
+   width: 390px;
+    position: absolute;
+  left: 22%;
+  top: 16.4%;
+   
+}
+.page3{
+    background-color: #060606;
+    width: auto;
+    height: 80vh;
+    border-bottom: 9px solid rgba(128, 128, 128, 0.687);
+    padding: 0 10%;
+    overflow: hidden;
+   
+}
+.Page3Detailes{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   
+}
+.leftItemMsg{
+  width: 100%;
+}
+.imagesLeftItem{
+    position: relative;
+   
+    
+}
+.downladerBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 7%;
+   left: 25%;
+    background-color: #000;
+}
+.left{
+    width: 70%;
+}
+.strnagerThings{
+    width: 70%;
+    gap: 50%;
+    border-radius: 10px;
+    padding:7px;
+}
+.right{
+    
+ width: 100%;
+}
+.insideRightHead{
+    font-size: 10px;
+    width: 100%;
+    font-weight: 500;
+    line-height: 0;
+}
+.insideRightPara{
+    font-size: 14px;
+    color: blue;
+    font-weight: 400;
+}
+.righticon{
+    width: 60%;
+}
+.icondownlad{
+    width: 60px;
+   
+}
+
+.rightHeadings{
+    font-size: 45px;
+   
+    font-weight: 900;
+}
+.rightparasec{
+    width: 59%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.page4{
+    width: 100%;
+    height: 80vh;
+    margin-top: 20px;
+    border-bottom: 7px solid rgba(128, 128, 128, 0.552);
+}
+.rightPage4{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+   
+}
+.rightheadpahe4{
+    font-size: 45px;
+    font-weight: 900;
+  width: 50%;
+    padding: 0 30%;
+}
+.rightparapage4{
+    font-size: 25px;
+    font-weight: 400;
+    width: 65%;
+    padding: 0 30%;
+}
+.page5{
+    width: 100%;
+    height: 80vh;
+    border-bottom: 7px solid rgba(128, 128, 128, 0.543);
+    margin-top: 90px;
+}
+.page5Det{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.leftpg5 img{
+    width: 100%;
+    padding-left:220px;
+
+}
+.rightpg5{
+    padding-left: 200px;
+}
+.pg5head{
+    font-size: 45px;
+    font-weight: 900;
+}
+.pg5para{
+    font-size: 22px;
+    font-weight: 400;
+    width: 70%;
+}
+.page6{
+    width: 100%;
+    height: auto;
+    border-bottom: 7px solid rgba(128, 128, 128, 0.566);
+    
+}
+.page6Head{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+}
+.toggler{
+    padding-left: 10%;
+    margin-top: 10px;
+    
+    
+}
+.togglerspan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1px solid gray;
+    padding: 10px 90px;
+    border: 1px solid rgba(248, 248, 255, 0.57);
+    width: 80%;
+    background-color: #d3d3d344;
+    position: relative;
+    padding: 30px;
+    transition: all ease 0.6s;
+    border:none;
+    outline: none;
+
+    
+}
+.togglerspan:hover{
+    cursor: pointer;
+    background-color: #d3d3d39a;
+    transition: all ease 0.6s;
+}
+
+.togglerspan
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.insideicons{
+    cursor: pointer;
+    position: relative;
+    right: 0;
+    transition: all ease-out 0.6s;
+}
+.plusicon{
+    font-size: 30px;
+    font-weight: 600;
+   position: absolute;
+    right: 22%;
+    
+    transform: translateY(-25px);
+    
+}
+.corssIcoon{
+    
+    font-size: 30px;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    transform: translateY(-25px);
+    right: 22px;
+    
+}
+.paraisnodespan{
+    transform: translateY(-19px);
+    width: 83.5%;
+    font-size: 24px;
+    font-weight: 400;
+    border: 1px solid rgba(128, 128, 128, 0.773);
+    background-color: #d3d3d344;
+    display: none;
+    transition: all 0.5s ease-out;
+}
+.footercontent{
+    margin-top: 90px;
+    padding: 0 40px;
+}
+.last{
+    margin-top: 50px;
+    align-content: center;
+}
+.lasthead{
+    text-align: center;
+    font-weight: 200;
+}
+.formSec1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 49px;
+}
+.footerhead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerlist{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    padding: 0 60px;
+    text-align: center;
+}
+.listitem a{
+    color: white;
+    padding: 10px;
+    font-weight: 200;
+}
+.ques{
+    padding: 0 60px;
+    color: rgb(255, 249, 239);
+}
+.footercontent{
+    width: 88%;
+}
+.lastthigs{
+    padding: 0 80px;
+}
+.btnn{
+    background-color: #000;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+select{
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px) {
+    .top_nav{
+       
+        gap: 0%;
+        padding: 10px;
+    }
+    
+    .nav{
+        background:  url("https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/de5aa17a-29b6-4167-8c39-834aae8f328e/PK-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_8056b691-2a93-40af-add4-ca200ba1151b_small.jpg");
+        width: 100%;
+      
+        
+        height: 100vh;
+        
+    }
+    .page2Deatlies{
+        flex-direction: column;
+        padding-right: 90px;
+        
+    }
+    .pg2Head{
+       
+      font-size: 20px;
+      
+        
+    }
+    .pg2para{
+      
+        font-size: 22px;
+        font-weight: 400;
+         width: 180%;
+         overflow: hidden;
+       
+    }
+ 
+    .mainhead{
+       
+        font-size: 25px;
+        overflow: hidden;
+        padding-bottom: 20px;
+       
+    }
+    .mainpara{
+        
+        font-size: 15px;
+        padding-bottom: 20px;
+    
+    }
+    .mainparasm{
+        transform: translateY(-50px);
+        font-size: 13px;
+        
+        
+    }
+    .formInput{
+        width: 50%;
+        padding: 12px;
+
+        font-size: 15px;
+   
+     }
+     .formBtn{
+         padding: 12px;
+         font-size: 15px;
+        
+     }
+     .formSec{
+        padding-top: 10%;
+     }
+     .page2{
+        height: auto;
+     }
+     .imgAndVid{
+        max-width: 100%;
+        overflow: hidden;
+     }
+     .imgpg2{
+        
+        padding-left: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .page2vid{
+       width: 390px;
+        position: absolute;
+      left: 22%;
+      top: 16.4%;
+       
+    }
+    .page3{
+       
+        width: 100%;
+        height: 100vh;
+       
+       
+    }
+    .Page3Detailes{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .rightHeadings{
+        font-size: 25px;
+        width: 90%;
+        font-weight: 600;
+        overflow: hidden;
+    }
+    .rightparasec{
+        width: auto;
+        font-weight: 300;
+        font-size: 17px;
+        overflow: hidden;
+    }
+    .page5{
+        width: auto;
+        height: 100vh;
+        margin-top: 0px;
+    }
+    .page5Det{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .leftpg5 img{
+        width: 100%;
+  padding-left: 0;
+    
+    }
+    .rightpg5{
+        padding-left: 0px;
+    }
+    .pg5head{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .pg5para{
+        font-size: 12px;
+        font-weight: 230;
+        width: auto;
+    }
+    
+}
