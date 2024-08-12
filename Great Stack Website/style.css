@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    background-color: #0D1224;
+    color: #E5E7EB;
+}
+
+.nabrItems{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid rgb(17, 91, 91);
+    position: relative;
+   
+   
+}
+.logo{
+    width: 200px;
+    transform: translateX(3%);
+}
+.leftside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    transform: translateX(-10%);
+   
+}
+.adver{
+    font-size: 16px;
+    animation: advert  1s ease-in 0s infinite alternate ;
+   
+}
+.Navbtn{
+    
+    border: none;
+    outline: none;
+    padding: 5px 12px;
+    font-size: 19px;
+    border-radius: 39px;
+    text-transform: uppercase;
+    cursor: pointer;
+    animation: btnanimation  1.8s ease-in 1.6s infinite alternate ;
+}
+.Navbtn:hover{
+    padding: 7px 13px;
+    transition: all 0.5s ease;
+}
+.hamburg{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+
+}
+.hamburg img{
+    width: 25px;
+}
+.licon{
+      display: flex; 
+}
+.rightIcon{
+    position: absolute;
+    right: 8%;
+    bottom: 40%;
+    display: none;
+}
+.wrpper{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+  padding: 30px;
+    border-bottom: 1px solid rgba(96, 179, 179, 0.551);
+    align-items: center;
+    transition: all 0.5s linear;
+  
+    
+}
+.wrpper:hover{
+    border: 1px solid aqua;
+}
+.imgandTitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 10px;
+}
+.rightDrop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rightDrop span{
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.proimg{
+    width: 30px;
+    
+}
+.dropdown{
+    transition: all 0.5s linear;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.left{
+    width: 19%;
+    
+    border-right: 1px solid rgb(51, 116, 116);
+    height: 100vh; 
+    
+}
+#first{
+    border-left: 4px solid aqua;
+    background-color: rgba(35, 132, 132, 0.651);
+    margin-top: 10px;
+    
+}
+#elem{
+    background-color: rgba(17, 123, 123, 0.063);
+}
+.wrpperr{
+    
+  padding: 24px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.wrpperr img{
+    width: 20px;
+}
+.wrpperr:hover{
+    transition: all 0.6s linear;
+    border-bottom: 1px solid rgb(40, 71, 71);
+    border-top: 1px solid rgb(40, 71, 71);
+
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    position: relative;
+}
+.right{
+    
+
+}
+.rightContainer{
+    display: flex;
+   
+  position: relative;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(70px);
+    cursor: pointer;
+    gap: 50px;
+    top: -200px;
+    
+}
+#react{
+    border: 1px solid aqua;
+}
+.rightStack{
+    display: flex;
+    line-height: normal;
+    justify-content: center;
+    padding: 10px 50px;
+    gap: 10px;
+    border: 1px solid rgba(0, 255, 255, 0.483);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.076);
+
+}
+.rightStack:hover{
+    background-color: rgba(43, 94, 94, 0.47);
+    transition: all 0.6s ease;
+}
+
+.stackimg{
+    width: 25px;
+    background-color: #ffffff09;
+   
+}
+.stack{
+    font-weight: 10;
+    background-color: #ffffff02;
+
+}
+.cardd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  position: relative; 
+    background-color: transparent;
+    width: 76%;
+   
+    
+}
+.card{
+
+    overflow: hidden;
+   position: relative;
+    top: -450px;
+    right: -295px;
+     background-color: transparent;
+}
+.carddet{
+    
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 15px;
+   
+    
+    
+}
+.carditems{
+    padding: 20px;
+    background-color: transparent;
+    overflow: hidden;
+    
+  
+}
+.carditems img{
+    border-radius: 2px;
+    width: 290px;
+    overflow: hidden;
+}
+.carditems img:hover
+{
+    cursor: pointer;
+   box-shadow: 2px 2px 2px 7px aqua;
+    transition: all 0.9s ease;
+}
+.footerdet{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    border: 1px solid rgba(0, 255, 255, 0.528);
+    transform: translateY(-450px);
+}
+.footerul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.footerul li:hover{
+    color: aquamarine;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+@media screen  and (max-width: 850px){
+    .hamburg{
+        display: flex;
+    }
+    .leftside{
+       display: none;
+    }
+    .wrpper{
+      padding: 19px;
+    }
+    .left{
+        display: none;
+    }
+    
+    .rightContainer{
+
+       flex-wrap: wrap;
+      padding: 20px 0;
+        transform: translateX(0px);
+        cursor: pointer;
+        gap: 20px;
+        top: 0px;
+        overflow: hidden;
+    }
+    #react{
+        border: 1px solid aqua;
+    }
+    .rightStack{
+       
+        padding: 10px 40px;
+       
+    
+    }
+    .card{
+
+        overflow: hidden;
+       position: relative;
+        top: 10px;
+        right: -40px;
+         background-color: transparent;
+    }
+    .carditems img{
+        border-radius: 1px;
+        width: 120px;
+       
+    }
+    .carditems{
+        padding: 10px;
+        background-color: transparent;
+        overflow: hidden;
+    }    
+    .footerdet{
+      
+        padding:10px;
+        align-items: center;
+        border: 1px solid rgba(0, 255, 255, 0.528);
+        transform: translateY(20px);
+        flex-wrap: wrap;
+        overflow: hidden;
+        line-height: 3;
+        text-align: center;
+        
+    }
+   
+    
+    
+   
+}
+ 
+@keyframes advert {
+   
+     50%{
+      color:  gray;
+     }
+    
+     100%{
+        color: gray;
+     }
+}
+@keyframes btnanimation {
+    0%{
+   background-color: #7542C0;
+    }
+    25%{
+        background-color: blueviolet;
+ 
+    }
+    50%{
+        
+        background-color:#D88CCA ;
+
+    }
+    65%{
+        background-color: red;
+    }
+    75%{
+        background-color:#D53174 ;
+       
+    }
+    85%{
+        background-color: maroon;
+    }
+    100%{
+        background-color: violet;
+    }
+    
+}
